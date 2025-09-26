@@ -1,0 +1,21 @@
+# Vault 루트에 .gitignore 파일 생성
+cat > .gitignore << 'EOF'
+# 옵시디언 시스템 파일
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+
+# 캐시 및 임시 파일
+.obsidian/cache
+.trash/
+.DS_Store
+
+# 민감한 설정 파일들
+.obsidian/plugins/*/data.json
+
+# 너무 자주 변경되는 파일들
+.obsidian/workspace*
+
