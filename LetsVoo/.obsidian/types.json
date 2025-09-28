@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "골드선물": "number",
+    "미국달러단기채권액티브": "number",
+    "VOO_buy": "number",
+    "VXUS_buy": "number",
+    "BND_buy": "number",
+    "VOO": "number",
+    "VXUS": "number",
+    "BND": "number",
+    "개별주": "number"
+  }
+}
