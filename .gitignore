@@ -1,6 +1,7 @@
 # Vault 루트에 .gitignore 파일 생성
 cat > .gitignore << 'EOF'
 # 옵시디언 시스템 파일
+.obsidian
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/hotkeys.json
